@@ -69,7 +69,7 @@ section {
   min-height: 100%;
 }
 
-#footer {
+footer {
   background-color: #444;
   color: #aaa;
   font-size: 8pt;
@@ -247,7 +247,7 @@ li:before {
   width: 100%;
 }
 
-.inside #footer {
+.inside footer {
   bottom: 0;
   position: absolute;
   width: 50%;

@@ -41,3 +41,4 @@ My computer does not have python preinstalled.  Bower was depreciated.  I instal
 
 also:
 https://www.w3.org/wiki/SVG_Accessibility/ARIA_roles_for_charts
+https://developer.mozilla.org/en-US/docs/Web/API/Cache

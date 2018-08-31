@@ -209,3 +209,11 @@ addMarkersToMap = (restaurants = self.restaurants) => {
     self.markers.push(marker);
   });
 } */
+
+// add Service Worker
+
+navigator.serviceWorker.register('/services/food.js').then(function(reg) {
+      window.addEventListener('load', ()=> {
+        console.log('food.js is registered');
+        })
+    })

@@ -38,3 +38,6 @@ My computer does not have python preinstalled.  Bower was depreciated.  I instal
 1. Once those were installed in the current folder, type `ws`. This will start a local server.  WRITE DOWN THE ADDRESS GIVEN.  
 
 2. Type the address in your browser. The website should open right up!
+
+also:
+https://www.w3.org/wiki/SVG_Accessibility/ARIA_roles_for_charts

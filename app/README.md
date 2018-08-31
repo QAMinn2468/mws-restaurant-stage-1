@@ -48,3 +48,5 @@ https://developer.mozilla.org/en-US/docs/Web/API/Cache
 https://www.youtube.com/watch?v=jsGs9z7TuyY
 
 Lesson 13: Introducing the Service Worker
+
+FYI: I worked on this for a few days before hitting a wall with the service workers.  I started the project in Ember and added the files I had been working on. This reset the commit history.  In the end, Ember was not required.

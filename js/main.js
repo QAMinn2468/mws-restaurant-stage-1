@@ -75,7 +75,7 @@ initMap = () => {
   self.newMap = L.map('map', {
         center: [40.722216, -73.987501],
         zoom: 12,
-        scrollWheelZoom: false
+        scrollWheelZoom: false,
       });
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.jpg70?access_token={mapboxToken}', {
     mapboxToken: 'pk.eyJ1Ijoia21jYzIwMTgiLCJhIjoiY2psZ21yZmgxMTk0dTNwdXZ6eTZqa3phMSJ9.HlGK18_JFEU4w7vBtWmd0A',

@@ -21,27 +21,29 @@
     </nav>
   </header>
 
-  <main id="maincontent">
+  <section id="maincontent">
+    <div>
 
-    <div id="map-container">
-      <div id="map"></div>
-    </div>
-
-    <section>
-      <div class="filter-options">
-        <h2>Filter Results</h2>
-        <select id="neighborhoods-select" title="neighborhoods" onchange="updateRestaurants()">
-          <option value="all">All Neighborhoods</option>
-        </select>
-        <select id="cuisines-select" title="cuisines" onchange="updateRestaurants()">
-          <option value="all">All Cuisines</option>
-        </select>
+      <div id="map-container">
+        <div id="map" tabindex="-1"></div>
       </div>
+      <section>
+        <div class="filter-options">
+          <h2>Filter Results</h2>
+          <select id="neighborhoods-select" title="neighborhoods" onchange="updateRestaurants()">
+            <option value="all">All Neighborhoods</option>
+          </select>
+          <select id="cuisines-select" title="cuisines" onchange="updateRestaurants()">
+            <option value="all">All Cuisines</option>
+        </div>
+      </select>
+
+    </div>
 
       <ul id="restaurants-list"></ul>
     </section>
 
-  </main>
+  </section>
 
 
   <footer>

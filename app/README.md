@@ -35,10 +35,16 @@ https://www.w3schools.com/tags/tag_meta.asp
 
 My computer does not have python preinstalled.  Bower was depreciated.  I installed Webpack instead of Bower, and local-web-server instead of python (as well as npm and node.js).
 
-1. Once those were installed in the current folder, type `ws`. This will start a local server.  WRITE DOWN THE ADDRESS GIVEN.  
+1. Once those are installed in the current folder, type `ws`. This will start a local server.  WRITE DOWN THE ADDRESS GIVEN.  
 
 2. Type the address in your browser. The website should open right up!
 
-also:
+Websites I found helpful during development:
+
 https://www.w3.org/wiki/SVG_Accessibility/ARIA_roles_for_charts
+
 https://developer.mozilla.org/en-US/docs/Web/API/Cache
+
+https://www.youtube.com/watch?v=jsGs9z7TuyY
+
+Lesson 13: Introducing the Service Worker

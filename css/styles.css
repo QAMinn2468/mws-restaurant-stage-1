@@ -257,7 +257,8 @@ li:before {
 .inside footer {
   bottom: 0;
   position: absolute;
-  width: 100%;
+  width: calc(50% - 50px);
+
 }
 
 #restaurant-name {

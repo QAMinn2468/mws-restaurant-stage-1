@@ -178,6 +178,8 @@ li:before {
   margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 #restaurants-list li {

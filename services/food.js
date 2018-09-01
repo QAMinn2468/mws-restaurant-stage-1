@@ -31,11 +31,7 @@ self.addEventListener('install', (e => {
   });
 }));
 
-// self.addEventListener('activate', (e => {
-//   console.log('sw: Activated!');
-// }))
-
-self.addEventListener('fetch', (e => {
+self.addEventListener('fetch', (event => {
   event.respondWith(cache.match(event.request).then(response => {
       if (response) {
         return response;
